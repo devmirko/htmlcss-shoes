@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* stile testata */
+header{
+    width: 100%;
+    height: 150px;
+    /* debugger */
+    /* background-color: blue; */
+    line-height: 150px;
+    position: fixed;
+    z-index: 100;
+}
+
+nav{
+    float: right;
+    margin-right: 10px;
+   
+}
+
+.style_button{
+        height: 50px;
+        line-height: 50px;  
+        width: 50px;  
+        font-size: 2em;
+        font-weight: bold;
+        border-radius: 50%;
+        background-color: white;
+        color: black;
+        text-align: center;
+        cursor: pointer;
+        margin-left: 10px;
+}
+
+/* stile contenuto */
+
+
+.box_container{
+    height: 100vh;
+    width: 100%;
+    /* debugger */
+    background-color: red;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.shoes_container{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.shoes_text{
+    font-size: 40px;
+    color: yellow;
+}
+
+/* colori di sfondo */
+#green{
+    background-color: green;
+}
+#yellow{
+    background-color: yellow;
+}
+/* colori testo */
+#green_text{
+    color: green;
+}
