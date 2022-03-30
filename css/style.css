@@ -27,19 +27,30 @@ nav{
    
 }
 
+ nav ul li{
+    display: inline-block;
+}
+
 .style_button{
         height: 50px;
         line-height: 50px;  
         width: 50px;  
         font-size: 2em;
         font-weight: bold;
-        border-radius: 50%;
+        border-radius: 100%;
         background-color: white;
         color: black;
         text-align: center;
         cursor: pointer;
         margin-left: 10px;
         text-decoration: none;
+        
+}
+.style_button:hover{
+    color: white;
+    background-color: black;
+    padding: 10px;
+   
 }
 
 /* stile contenuto */
